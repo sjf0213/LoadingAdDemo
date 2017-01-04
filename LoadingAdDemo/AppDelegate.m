@@ -10,6 +10,7 @@
 #import "StartingADController.h"
 #import "PreDownloader.h"
 #import "UIImage+Snapshot.h"
+#import "VideoADController.h"
 
 @interface AppDelegate ()
 @property(strong, nonatomic)UINavigationController* adNavi;
@@ -25,11 +26,20 @@
     // window加载开屏广告，开屏广告dismiss之后再初始化并加载主页面
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onLoadingViewDismissed) name:kLoadingViewDismissNotification object:nil];
     
-    StartingADController *adController = [[StartingADController alloc] init];
-    adController.cacheDirPath = [PreDownloader shareInstance].cacheDir;
+    
+    
+    //StartingADController *adController = [[StartingADController alloc] init];
+    //adController.cacheDirPath = [PreDownloader shareInstance].cacheDir;
+    
+    VideoADController* adController = [[VideoADController alloc] init];
+    
     self.adNavi = [[UINavigationController alloc] initWithRootViewController:adController];
     self.adNavi.navigationBarHidden = YES;
     self.adNavi.interactivePopGestureRecognizer.enabled = YES;
+     
+     
+    
+    
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window setRootViewController:self.adNavi];

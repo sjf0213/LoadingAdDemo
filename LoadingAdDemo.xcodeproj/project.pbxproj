@@ -48,6 +48,7 @@
 		F014F1291E10F31800A29B88 /* NFSNSDictionary+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = F014F1271E10F31800A29B88 /* NFSNSDictionary+URL.m */; };
 		F014F12C1E110C0D00A29B88 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F014F12B1E110C0D00A29B88 /* HomeViewController.m */; };
 		F0E51FAD1E1CEDE000FC0E6A /* 1230a.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F0E51FAC1E1CEDE000FC0E6A /* 1230a.mp4 */; };
+		F0E51FB01E1CF05000FC0E6A /* VideoADController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E51FAF1E1CF05000FC0E6A /* VideoADController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +132,8 @@
 		F014F12A1E110C0D00A29B88 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F014F12B1E110C0D00A29B88 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		F0E51FAC1E1CEDE000FC0E6A /* 1230a.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1230a.mp4; sourceTree = "<group>"; };
+		F0E51FAE1E1CF05000FC0E6A /* VideoADController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoADController.h; sourceTree = "<group>"; };
+		F0E51FAF1E1CF05000FC0E6A /* VideoADController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoADController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,17 +252,19 @@
 		F014F0E31E10C69900A29B88 /* StartingAd */ = {
 			isa = PBXGroup;
 			children = (
+				F014F0EA1E10C69900A29B88 /* StartingAD.bundle */,
+				F014F0ED1E10C69900A29B88 /* UIImage+Snapshot.h */,
+				F014F0EE1E10C69900A29B88 /* UIImage+Snapshot.m */,
 				F014F0E41E10C69900A29B88 /* CustomWebViewController.h */,
 				F014F0E51E10C69900A29B88 /* CustomWebViewController.m */,
 				F014F0E61E10C69900A29B88 /* LoadingAdModel.h */,
 				F014F0E71E10C69900A29B88 /* LoadingAdModel.m */,
 				F014F0E81E10C69900A29B88 /* PreDownloader.h */,
 				F014F0E91E10C69900A29B88 /* PreDownloader.m */,
-				F014F0EA1E10C69900A29B88 /* StartingAD.bundle */,
 				F014F0EB1E10C69900A29B88 /* StartingADController.h */,
 				F014F0EC1E10C69900A29B88 /* StartingADController.m */,
-				F014F0ED1E10C69900A29B88 /* UIImage+Snapshot.h */,
-				F014F0EE1E10C69900A29B88 /* UIImage+Snapshot.m */,
+				F0E51FAE1E1CF05000FC0E6A /* VideoADController.h */,
+				F0E51FAF1E1CF05000FC0E6A /* VideoADController.m */,
 			);
 			path = StartingAd;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 				F014F0F41E10C69900A29B88 /* NSImage+WebCache.m in Sources */,
 				F014F0FE1E10C69900A29B88 /* UIImage+GIF.m in Sources */,
 				F014F0F91E10C69900A29B88 /* SDWebImageDownloader.m in Sources */,
+				F0E51FB01E1CF05000FC0E6A /* VideoADController.m in Sources */,
 				F014F0F51E10C69900A29B88 /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
