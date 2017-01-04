@@ -47,6 +47,7 @@
 		F014F1281E10F31800A29B88 /* NFSNSData+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = F014F1251E10F31800A29B88 /* NFSNSData+URL.m */; };
 		F014F1291E10F31800A29B88 /* NFSNSDictionary+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = F014F1271E10F31800A29B88 /* NFSNSDictionary+URL.m */; };
 		F014F12C1E110C0D00A29B88 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F014F12B1E110C0D00A29B88 /* HomeViewController.m */; };
+		F0E51FAD1E1CEDE000FC0E6A /* 1230a.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F0E51FAC1E1CEDE000FC0E6A /* 1230a.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +130,7 @@
 		F014F1271E10F31800A29B88 /* NFSNSDictionary+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NFSNSDictionary+URL.m"; sourceTree = "<group>"; };
 		F014F12A1E110C0D00A29B88 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F014F12B1E110C0D00A29B88 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F0E51FAC1E1CEDE000FC0E6A /* 1230a.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1230a.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				F014F0BD1E10C69900A29B88 /* SDWebImage */,
 				F014F0E31E10C69900A29B88 /* StartingAd */,
 				F014F09E1E10BA9800A29B88 /* LoadingAdDemo */,
+				F0E51FAB1E1CEDE000FC0E6A /* Resources */,
 				F014F09D1E10BA9800A29B88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -291,6 +294,14 @@
 			path = DACircularProgress;
 			sourceTree = "<group>";
 		};
+		F0E51FAB1E1CEDE000FC0E6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0E51FAC1E1CEDE000FC0E6A /* 1230a.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,6 +363,7 @@
 				F014F0AC1E10BA9800A29B88 /* Assets.xcassets in Resources */,
 				F014F1071E10C69900A29B88 /* StartingAD.bundle in Resources */,
 				F014F0AA1E10BA9800A29B88 /* Main.storyboard in Resources */,
+				F0E51FAD1E1CEDE000FC0E6A /* 1230a.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
